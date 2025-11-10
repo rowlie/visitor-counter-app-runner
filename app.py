@@ -44,7 +44,7 @@ def index():
                 
                 conn.commit()
 
-        return f"<h1>Hello from the Visitor Counter!</h1><p>You are visitor number <b>{current_count}</b>.</p>"
+        return f"<h1>HellGoodbye from the Visitor Counter!</h1><p>You are visitor number <b>{current_count}</b>.</p>"
 
     except Exception as e:
         # In a real app, you would log this error instead of showing it to the user.
