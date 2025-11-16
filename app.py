@@ -44,7 +44,7 @@ def index():
                 
                 conn.commit()
 
-        return f"<h1>Hello from the Visitor Counter!</h1><p>You are visitor number <b>{current_count}</b>.</p>"
+        return f"<h1>HellGoodbye from the Visitor Counter!</h1><p>You are visitor number <b>{current_count}</b>.</p>"
 
     except Exception as e:
         # In a real app, you would log this error instead of showing it to the user.
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     from dotenv import load_dotenv
     load_dotenv()
     
-    # Gunicorn will handle this in production.
+    # Gunicorn will handle this in production.this is an edit CU-869b6e9t7_CU-869b6e9t7_Roland
     # The default port for App Runner is 8080, but 5000 is fine for local testing.
     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
 
